@@ -1,0 +1,26 @@
+PODS:
+  - FSPageController (1.0.1)
+  - FSPagerView (0.8.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - FSPageController (~> 1.0.0)
+  - FSPagerView
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - FSPageController
+    - FSPagerView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FSPageController: 2f672e8d09986be16fc67ee329321e46e424760d
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: dd31d19efe0a041f2ab29b31c32a030200eed079
+
+COCOAPODS: 1.10.1

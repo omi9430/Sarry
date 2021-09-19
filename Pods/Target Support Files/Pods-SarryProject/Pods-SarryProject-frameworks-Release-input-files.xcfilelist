@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SarryProject/Pods-SarryProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FSPageController/FSPageController.framework
+${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

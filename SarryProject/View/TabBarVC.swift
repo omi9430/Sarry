@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+class TabBarVC : UITableViewController {
+    
+    override func viewDidLoad() {
+        self.viewcont
+    }
+}

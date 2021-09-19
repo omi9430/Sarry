@@ -1,0 +1,6 @@
+framework module FSPageController {
+  umbrella header "FSPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}

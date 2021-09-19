@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import UIKit
+
+class vc3 : UIViewController {
+    override func viewDidLoad() {
+        self.view.backgroundColor = .blue
+    }
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,32 @@
 		4282EBB026EFCC5A002D35E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4282EBAE26EFCC5A002D35E6 /* Main.storyboard */; };
 		4282EBB226EFCC5F002D35E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4282EBB126EFCC5F002D35E6 /* Assets.xcassets */; };
 		4282EBB526EFCC5F002D35E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4282EBB326EFCC5F002D35E6 /* LaunchScreen.storyboard */; };
+		4282EBC026EFCD28002D35E6 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBBF26EFCD28002D35E6 /* BannerModel.swift */; };
+		4282EBC626F05E64002D35E6 /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBC526F05E64002D35E6 /* BannerViewModel.swift */; };
+		4282EBC826F065C6002D35E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBC726F065C6002D35E6 /* Constants.swift */; };
+		4282EBCA26F06AE5002D35E6 /* SmartDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBC926F06AE5002D35E6 /* SmartDataType.swift */; };
+		4282EBCC26F06B6A002D35E6 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBCB26F06B6A002D35E6 /* CatalogViewModel.swift */; };
+		4282EBCF26F07683002D35E6 /* smartDataTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBCE26F07683002D35E6 /* smartDataTypeCell.swift */; };
+		4282EBD226F07F56002D35E6 /* smartDataSubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBD126F07F56002D35E6 /* smartDataSubCell.swift */; };
+		4282EBD626F0A1B5002D35E6 /* Extensions&Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBD526F0A1B5002D35E6 /* Extensions&Helper.swift */; };
+		4282EBD826F0ABE9002D35E6 /* TopBannerSubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBD726F0ABE9002D35E6 /* TopBannerSubCell.swift */; };
+		4282EBDA26F0B8A3002D35E6 /* TopBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBD926F0B8A3002D35E6 /* TopBannerCell.swift */; };
+		4282EBDC26F0BACC002D35E6 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBDB26F0BACC002D35E6 /* CategoriesCell.swift */; };
+		4282EBDE26F0BDE1002D35E6 /* BottomBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBDD26F0BDE1002D35E6 /* BottomBanner.swift */; };
+		4282EBE026F0BE51002D35E6 /* BottomBannerSubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBDF26F0BE51002D35E6 /* BottomBannerSubCell.swift */; };
+		4282EBE426F0C99A002D35E6 /* ResultAndData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBE326F0C99A002D35E6 /* ResultAndData.swift */; };
+		4282EBE626F0C9C4002D35E6 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBE526F0C9C4002D35E6 /* Requests.swift */; };
+		4282EBE826F0CC20002D35E6 /* CateegoriesDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBE726F0CC20002D35E6 /* CateegoriesDataType.swift */; };
+		4282EBEA26F1CF25002D35E6 /* CategoriesSubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282EBE926F1CF25002D35E6 /* CategoriesSubCell.swift */; };
+		4293312F26F3163B00EF9234 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293312E26F3163B00EF9234 /* TabBarViewController.swift */; };
+		4293313126F316ED00EF9234 /* VC 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293313026F316ED00EF9234 /* VC 2.swift */; };
+		4293313326F3170900EF9234 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293313226F3170900EF9234 /* VC3.swift */; };
+		4293313526F3171200EF9234 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293313426F3171200EF9234 /* VC4.swift */; };
+		80617CBC543A712C81982E41 /* Pods_SarryProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB75E572C3D262C91F7A339E /* Pods_SarryProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3745BED3A607A7FA4D6BDAA9 /* Pods-SarryProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SarryProject.release.xcconfig"; path = "Target Support Files/Pods-SarryProject/Pods-SarryProject.release.xcconfig"; sourceTree = "<group>"; };
 		4282EBA526EFCC5A002D35E6 /* SarryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4282EBA826EFCC5A002D35E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4282EBAA26EFCC5A002D35E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,29 @@
 		4282EBB126EFCC5F002D35E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4282EBB426EFCC5F002D35E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4282EBB626EFCC5F002D35E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4282EBBF26EFCD28002D35E6 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		4282EBC526F05E64002D35E6 /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
+		4282EBC726F065C6002D35E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4282EBC926F06AE5002D35E6 /* SmartDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDataType.swift; sourceTree = "<group>"; };
+		4282EBCB26F06B6A002D35E6 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		4282EBCE26F07683002D35E6 /* smartDataTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartDataTypeCell.swift; sourceTree = "<group>"; };
+		4282EBD126F07F56002D35E6 /* smartDataSubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartDataSubCell.swift; sourceTree = "<group>"; };
+		4282EBD526F0A1B5002D35E6 /* Extensions&Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions&Helper.swift"; sourceTree = "<group>"; };
+		4282EBD726F0ABE9002D35E6 /* TopBannerSubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBannerSubCell.swift; sourceTree = "<group>"; };
+		4282EBD926F0B8A3002D35E6 /* TopBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBannerCell.swift; sourceTree = "<group>"; };
+		4282EBDB26F0BACC002D35E6 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		4282EBDD26F0BDE1002D35E6 /* BottomBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBanner.swift; sourceTree = "<group>"; };
+		4282EBDF26F0BE51002D35E6 /* BottomBannerSubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBannerSubCell.swift; sourceTree = "<group>"; };
+		4282EBE326F0C99A002D35E6 /* ResultAndData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultAndData.swift; sourceTree = "<group>"; };
+		4282EBE526F0C9C4002D35E6 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		4282EBE726F0CC20002D35E6 /* CateegoriesDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateegoriesDataType.swift; sourceTree = "<group>"; };
+		4282EBE926F1CF25002D35E6 /* CategoriesSubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesSubCell.swift; sourceTree = "<group>"; };
+		4293312E26F3163B00EF9234 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4293313026F316ED00EF9234 /* VC 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC 2.swift"; sourceTree = "<group>"; };
+		4293313226F3170900EF9234 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		4293313426F3171200EF9234 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		AB75E572C3D262C91F7A339E /* Pods_SarryProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SarryProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C104BD782F2780295A578EA9 /* Pods-SarryProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SarryProject.debug.xcconfig"; path = "Target Support Files/Pods-SarryProject/Pods-SarryProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80617CBC543A712C81982E41 /* Pods_SarryProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4177FCEEBE6626D7C6AD1706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB75E572C3D262C91F7A339E /* Pods_SarryProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4282EB9C26EFCC5A002D35E6 = {
 			isa = PBXGroup;
 			children = (
 				4282EBA726EFCC5A002D35E6 /* SarryProject */,
 				4282EBA626EFCC5A002D35E6 /* Products */,
+				99BCC448ADF2E9250C3D47C3 /* Pods */,
+				4177FCEEBE6626D7C6AD1706 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,101 @@
 		4282EBA726EFCC5A002D35E6 /* SarryProject */ = {
 			isa = PBXGroup;
 			children = (
+				4282EBD326F0A198002D35E6 /* Helper */,
+				4282EBC126EFD03C002D35E6 /* Model */,
+				4282EBC426F05908002D35E6 /* ViewModel */,
+				4282EBBC26EFCC67002D35E6 /* View */,
 				4282EBA826EFCC5A002D35E6 /* AppDelegate.swift */,
 				4282EBAA26EFCC5A002D35E6 /* SceneDelegate.swift */,
-				4282EBAC26EFCC5A002D35E6 /* ViewController.swift */,
 				4282EBAE26EFCC5A002D35E6 /* Main.storyboard */,
 				4282EBB126EFCC5F002D35E6 /* Assets.xcassets */,
 				4282EBB326EFCC5F002D35E6 /* LaunchScreen.storyboard */,
 				4282EBB626EFCC5F002D35E6 /* Info.plist */,
+				4282EBC726F065C6002D35E6 /* Constants.swift */,
 			);
 			path = SarryProject;
+			sourceTree = "<group>";
+		};
+		4282EBBC26EFCC67002D35E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBCD26F07586002D35E6 /* Cells */,
+				4282EBAC26EFCC5A002D35E6 /* ViewController.swift */,
+				4293312E26F3163B00EF9234 /* TabBarViewController.swift */,
+				4293313026F316ED00EF9234 /* VC 2.swift */,
+				4293313226F3170900EF9234 /* VC3.swift */,
+				4293313426F3171200EF9234 /* VC4.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4282EBC126EFD03C002D35E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBBF26EFCD28002D35E6 /* BannerModel.swift */,
+				4282EBC926F06AE5002D35E6 /* SmartDataType.swift */,
+				4282EBE326F0C99A002D35E6 /* ResultAndData.swift */,
+				4282EBE726F0CC20002D35E6 /* CateegoriesDataType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4282EBC426F05908002D35E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBC526F05E64002D35E6 /* BannerViewModel.swift */,
+				4282EBCB26F06B6A002D35E6 /* CatalogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4282EBCD26F07586002D35E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBD026F07F3F002D35E6 /* SubCells */,
+				4282EBCE26F07683002D35E6 /* smartDataTypeCell.swift */,
+				4282EBD926F0B8A3002D35E6 /* TopBannerCell.swift */,
+				4282EBDB26F0BACC002D35E6 /* CategoriesCell.swift */,
+				4282EBDD26F0BDE1002D35E6 /* BottomBanner.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4282EBD026F07F3F002D35E6 /* SubCells */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBD126F07F56002D35E6 /* smartDataSubCell.swift */,
+				4282EBD726F0ABE9002D35E6 /* TopBannerSubCell.swift */,
+				4282EBDF26F0BE51002D35E6 /* BottomBannerSubCell.swift */,
+				4282EBE926F1CF25002D35E6 /* CategoriesSubCell.swift */,
+			);
+			path = SubCells;
+			sourceTree = "<group>";
+		};
+		4282EBD326F0A198002D35E6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBD426F0A19F002D35E6 /* Extensions */,
+				4282EBE526F0C9C4002D35E6 /* Requests.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4282EBD426F0A19F002D35E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4282EBD526F0A1B5002D35E6 /* Extensions&Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99BCC448ADF2E9250C3D47C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C104BD782F2780295A578EA9 /* Pods-SarryProject.debug.xcconfig */,
+				3745BED3A607A7FA4D6BDAA9 /* Pods-SarryProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4282EBB926EFCC5F002D35E6 /* Build configuration list for PBXNativeTarget "SarryProject" */;
 			buildPhases = (
+				968B88793810D62B205FCD14 /* [CP] Check Pods Manifest.lock */,
 				4282EBA126EFCC5A002D35E6 /* Sources */,
 				4282EBA226EFCC5A002D35E6 /* Frameworks */,
 				4282EBA326EFCC5A002D35E6 /* Resources */,
+				23A4D1A6D2F4F6A39F6EBCBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +277,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23A4D1A6D2F4F6A39F6EBCBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SarryProject/Pods-SarryProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SarryProject/Pods-SarryProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SarryProject/Pods-SarryProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968B88793810D62B205FCD14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SarryProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4282EBA126EFCC5A002D35E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4282EBD226F07F56002D35E6 /* smartDataSubCell.swift in Sources */,
+				4282EBCF26F07683002D35E6 /* smartDataTypeCell.swift in Sources */,
+				4293313326F3170900EF9234 /* VC3.swift in Sources */,
+				4282EBE826F0CC20002D35E6 /* CateegoriesDataType.swift in Sources */,
 				4282EBAD26EFCC5A002D35E6 /* ViewController.swift in Sources */,
+				4282EBEA26F1CF25002D35E6 /* CategoriesSubCell.swift in Sources */,
+				4282EBCA26F06AE5002D35E6 /* SmartDataType.swift in Sources */,
+				4282EBDC26F0BACC002D35E6 /* CategoriesCell.swift in Sources */,
 				4282EBA926EFCC5A002D35E6 /* AppDelegate.swift in Sources */,
+				4282EBDA26F0B8A3002D35E6 /* TopBannerCell.swift in Sources */,
+				4293313526F3171200EF9234 /* VC4.swift in Sources */,
+				4282EBC626F05E64002D35E6 /* BannerViewModel.swift in Sources */,
 				4282EBAB26EFCC5A002D35E6 /* SceneDelegate.swift in Sources */,
+				4282EBD826F0ABE9002D35E6 /* TopBannerSubCell.swift in Sources */,
+				4282EBD626F0A1B5002D35E6 /* Extensions&Helper.swift in Sources */,
+				4282EBE626F0C9C4002D35E6 /* Requests.swift in Sources */,
+				4293312F26F3163B00EF9234 /* TabBarViewController.swift in Sources */,
+				4293313126F316ED00EF9234 /* VC 2.swift in Sources */,
+				4282EBC026EFCD28002D35E6 /* BannerModel.swift in Sources */,
+				4282EBCC26F06B6A002D35E6 /* CatalogViewModel.swift in Sources */,
+				4282EBE026F0BE51002D35E6 /* BottomBannerSubCell.swift in Sources */,
+				4282EBDE26F0BDE1002D35E6 /* BottomBanner.swift in Sources */,
+				4282EBE426F0C99A002D35E6 /* ResultAndData.swift in Sources */,
+				4282EBC826F065C6002D35E6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +491,7 @@
 		};
 		4282EBBA26EFCC5F002D35E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C104BD782F2780295A578EA9 /* Pods-SarryProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +511,7 @@
 		};
 		4282EBBB26EFCC5F002D35E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3745BED3A607A7FA4D6BDAA9 /* Pods-SarryProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
